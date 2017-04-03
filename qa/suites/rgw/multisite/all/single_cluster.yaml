@@ -4,10 +4,12 @@ roles:
 - - cluster1.mon.a
   - cluster1.osd.0
   - cluster1.osd.2
+  - cluster1.mgr.x
 - - cluster1.mon.c
   - cluster1.mon.b
   - cluster1.osd.1
   - cluster1.client.0
+  - cluster1.mgr.y
 tasks:
 - install:
 - ceph:
